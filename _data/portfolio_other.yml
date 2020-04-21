@@ -1,0 +1,12 @@
+- id: 1
+  title: The Tempest
+  img: Tempest.jpg
+  desc: >
+    <p> The Tempest was a massive project for me where performance capture was merged with traditional stage show control to produce a realtime avatar, driven live on stage, and controlled through external tools over network languages, mainly DMX, OSC, and PSN </p>
+    <p> I created the Unreal project and merged all the elements together, including all the state logic, visual changes, and materials and particle fx. </p>
+    <ul>
+      <li> Write-up by Epic: <a href="https://www.unrealengine.com/en-US/blog/unreal-engine-brings-virtual-character-to-life-onstage-in-the-royal-shakespeare-companys-the-tempest" _target="blank"> Unreal Engine Brings Virtual Character to Life Onstage in The Royal Shakespeare Company’s The Tempest </a></li>
+      <li> White Paper on the Mocap Employed <a href="https://cdn2.unrealengine.com/Unreal+Engine%2Fperformance-capture-whitepaper-final%2FUnreal-Engine_performance-capture-whitepaper_LPC_Whitepaper_final-7f4163190d9926a15142eafcca15e8da5f4d0701.pdf" _target="blank"> Choosing a real-time performance capture system </a> </li>
+    </ul>
+  width: 2
+  height: 4

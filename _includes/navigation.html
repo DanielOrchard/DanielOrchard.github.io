@@ -1,0 +1,36 @@
+
+<nav id="navbar-main" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"> Daniel Orchard </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            {% for item in site.data.navigation %}
+                <li class=
+                    {% if page.url == item.link %}
+                        "nav-item-active"  
+                    {% else %}
+                        "nav-item"
+                    {% endif %}>
+                                  
+                        <a class=
+                        {% if page.url == item.link %}
+                            "nav-link active"  
+                            {% else %}
+                            "nav-link"
+                            {% endif %}
+                        
+                        href="{{ item.link }}" >
+                        {% if page.url == item.link %}
+                        <span class="sr-only">(current)</span>
+                        {% endif %}
+                        {{ item.name }}
+                         </a>
+                </li>
+            {% endfor %}
+            </ul>
+        
+        </div>
+</nav>

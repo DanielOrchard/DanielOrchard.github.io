@@ -1,0 +1,40 @@
+/**
+ * Blocks
+ */
+
+
+ .block-fader{    
+    overflow: hidden; 
+    min-height: $height-unit + $block-padding * 2; 
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.image-fader {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+
+  }
+
+.portfolio-img:hover .image-fader{
+    opacity: 0.3;
+
+}
+
+.portfolio-img:hover .block-fader{
+    opacity: 1;
+
+}
+
+
+

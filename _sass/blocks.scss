@@ -1,0 +1,30 @@
+/**
+ * Blocks
+ */
+
+
+ .block{    
+    overflow: hidden; 
+    min-height: $height-unit + $block-padding * 2; 
+    height: 100%;
+    
+    
+    .block-body{
+        margin: $block-padding;
+        min-height: $height-unit; 
+        position: absolute;
+        height: 100%;
+    }
+
+    .block-body-center{
+        margin: $block-padding;
+        min-height: $height-unit; 
+        position: relative;
+        top:50%;
+        left:50%;
+        width: 50%;
+        margin: -15% 0 0 -25%;
+
+
+    }
+}

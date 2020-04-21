@@ -1,0 +1,46 @@
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+.fa-linkedin {
+  /* background: #007bb5; */
+  color: white;
+}
+
+.fa-youtube {
+  /* background: #bb0000; */
+  color: white;
+}
+
+.fa-github {
+    /* background: #2d2d2e; */
+    color:white;
+}
+
+footer {
+  margin-top: 1em;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  min-height: $footer-min-height;
+  background-color: $footer-color;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

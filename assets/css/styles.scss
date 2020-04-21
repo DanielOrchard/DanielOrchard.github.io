@@ -1,0 +1,66 @@
+---
+# Front Matter
+---
+
+$grey-color:       #B2BECD;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$teal-color: #26A69A;
+$green-color: #4CAF50;
+$lime-color: #C6FF00;
+$yellow-color:      #FFEB3B;
+$orange-color:       #FB8C00;
+$red-color:          #F44336;
+$pink-color:         #E91E63;
+$purple-color:       #9C27B0;
+$blue-color:         #2196F3;
+
+
+
+// Our variables
+$base-font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   0.95em;
+$base-font-weight: 800;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     4px;
+$height-unit:     140px;
+$block-padding:    15px;
+
+$text-color: $grey-color;
+$heading-color: white;
+$background-color:#12181b;
+$navigation-color:   #2a2e35;
+$footer-color:       #ff880000;
+$brand-color:        #2a7ae2;
+$link-color: #498afb;
+$footer-min-height: 15.0rem;
+$border-radius: 7px;
+
+$glass-color: lighten($background-color, 2%);
+
+// Preset colours
+$white-color: #fefefe;
+
+
+
+// Width of the content area
+$content-width:    1000px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@import "main";
+@import "blocks";
+@import "layout";
+@import "helpers";
+@import "effects";
+@import "nav";
+@import "footer";
+@import "timeline";

@@ -1,0 +1,53 @@
+
+ body {    
+     color: $text-color;
+     background-color: $background-color;
+     min-height: 100vh;
+ }
+ 
+.header-bg {
+    background-size: cover;
+    background-image: url(/assets/images/header_bg2.jpg);
+    background-position: center;
+
+}
+
+.header-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+ .dashedLine {
+    border: 0;
+    height: 0;
+    border-top: 2px dashed #474747;
+ }
+ 
+ /** Links */
+ a {
+     color: $link-color;
+     text-decoration: none;
+
+     &:hover {
+         color: lighten($link-color, 20%);        
+     }
+ }
+ 
+ 
+ 
+
+  
+ %clearfix {
+     &:after {
+         content: "";
+         display: table;
+         clear: both;
+     }
+ }
+ 
+ 
+ 

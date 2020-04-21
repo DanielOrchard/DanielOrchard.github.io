@@ -1,0 +1,78 @@
+---
+layout: default
+title: Projects
+---
+
+<!-- Window Container -->
+<div class="container-lg justify-content-md-center">
+
+
+  <!-- title and master row -->
+  <h2 class="text-center py-3"> Film and TV </h2>
+  <div class="row">
+  
+    <!-- Loop through yml files -->
+    {% for port in site.data.portfolio_film %}
+    <div class="card mb-2 mx-1 px-2 col bg-dark" style="min-width: 540px;">
+      <div class="row no-gutters">
+        <div class="col-auto"> <img src="assets/images/{{port.img}}" class="card-img py-4" style="max-width: 180px;" alt="{{port.title}}"> </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> {{port.title}} </h5>
+            <p class="card-text"> {{port.desc}} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {% endfor %}
+
+</div> <!-- ~ Row Layouts for container of cards -->
+
+  
+
+
+  <h2 class="text-center py-3"> Video Games </h2>
+  <div class="row">
+  {% for port in site.data.portfolio_games %}
+
+  <div class="card mb-2 mx-1 px-2 col bg-dark" style="min-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-auto"> <img src="assets/images/{{port.img}}" class="card-img py-4" style="max-width: 180px;" alt="{{port.title}}"> </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"> {{port.title}} </h5>
+          <p class="card-text"> {{port.desc}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <!-- ~ Row Layouts for container of cards -->
+  </div>
+
+  <h2 class="text-center py-3"> Other </h2>
+  <div class="row">
+  {% for port in site.data.portfolio_other %}
+
+  <div class="card mb-2 mx-1 px-2 col bg-dark" style="min-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-auto"> <img src="assets/images/{{port.img}}" class="card-img py-4" style="max-width: 180px;" alt="..."> </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"> {{port.title}} </h5>
+          <p class="card-text"> {{port.desc}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <!-- ~ Row Layouts for container of cards -->
+  </div>
+
+
+
+
+
+<!-- ~ Window container -->
+</div>

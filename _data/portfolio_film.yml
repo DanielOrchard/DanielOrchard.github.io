@@ -1,0 +1,52 @@
+- id: 1
+  title: Avengers 2
+  img: Avengers2.jpg
+  desc: >
+      On Avengers 2 I was the P-Cap operator for a capture stage in Shepperton Studios, where I captured principal cast and stunt-work.
+  width: 2
+  height: 4
+- id: 2
+  title: Mowgli
+  img: Mowgli.jpg
+  desc: >
+      Mowgli made heavy use of Unreal Engine for both previsualisation and realtime  display of performance capture. I created digital sets, mapped digital avatars to performers, and produce rushes of the shoots. This was performed both in studio and on location.
+  width: 2
+  height: 4
+- id: 3
+  title: Game of Thrones (Season 8)
+  img: got8.jpg
+  desc: >
+      <p> GOT S8 used a number of tools I had built for TTF for virtual reality previsualisation of a scene, in particualar the Pathfinder tool, which allows you to both both scout locations and to plan camera shots. </p>
+      Epic has created a excellent write-up of our work which you can read here:
+      <a href="https://www.unrealengine.com/en-US/spotlights/virtual-production-on-the-battlegrounds-of-game-of-thrones" target="_blank">  Game of Thrones Previs using Unreal Engine 4 </a>  
+      <p>  </p>
+  width: 2
+  height: 4
+- id: 4
+  title: Final Fantasy - Kingsglaive
+  img: Kingsglaive.jpg
+  desc: >
+      On Kingsglaive I alternated between work as a performance capture operator, and as the realtime operator using motion builder.
+  width: 2
+  height: 4
+- id: 5
+  title: Star Wars - Episode 7
+  img: StarWars7.jpg
+  desc: >
+        For Star Wars I worked in studio and on location as motion capture technician, and I also worked on location as IBC capture operator
+  width: 2
+  height: 4
+- id: 5
+  title: The Ritual
+  img: Ritual.jpg
+  desc: >
+      For the Ritual I used Unreal Engine to build previs scenes to help plan the capture of more difficult shots, these were then used with performance capture digital sets for character motion development for the digital avatar of the monster (All in Unreal).
+  width: 2
+  height: 4
+- id: 5
+  title: Dawn Of The Planet Of The Apes
+  img: dawn-planet-apes.jpg
+  desc: >
+        For Apes 2, my work was based around the various pick-ups in performance capture for Andy Serkis.
+  width: 2
+  height: 4
