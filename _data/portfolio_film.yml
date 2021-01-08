@@ -50,3 +50,17 @@
         For Apes 2, my work was based around the various pick-ups in performance capture for Andy Serkis.
   width: 2
   height: 4
+- id: 5
+  title: The Mandolorian (Season 2)
+  img: MandoSeason2.jpg
+  desc: >
+        Pipeline R&D, Core Tools integration into Unreal Engine
+  width: 2
+  height: 4
+- id: 5
+  title: Jingle Jangle
+  img: JingleJangle.jpg
+  desc: >
+        On-Set NCam Realtime op
+  width: 2
+  height: 4

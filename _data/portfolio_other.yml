@@ -10,3 +10,11 @@
     </ul>
   width: 2
   height: 4
+- id: 1
+  title: Coldplay - Adventures of a Lifetime
+  img: Coldplay.jpg
+  desc: >
+    <p> Performance Capture </p>
+  width: 2
+  height: 4
+
