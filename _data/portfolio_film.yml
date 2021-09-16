@@ -1,3 +1,23 @@
+- id: 3
+  title: Game of Thrones
+  img: got8.jpg
+  desc: >
+      <p> On Game of Thrones (Season 8), I designed and produced virtual production tools, mainly utilising VR, for previsualisation and shot-planning, used for the more complex scenes, the primary tool being <a href="https://pathfinder.thethirdfloorinc.com/" target="_blank"> Pathfinder </a>, which allows you to both both scout locations and to plan camera shots. </p>
+      Epic Games has created a excellent write-up of our work which you can read here:
+      <br>
+      <a href="https://www.unrealengine.com/en-US/spotlights/virtual-production-on-the-battlegrounds-of-game-of-thrones" target="_blank">  Game of Thrones Previs using Unreal Engine</a>
+  width: 2
+  height: 4
+
+- id: 5
+  title: The Mandolorian (Season 2)
+  img: MandoSeason2.jpg
+  desc: >
+        <p> The Mandolorian TV series used substantial amounts of virtual production in the development. My role was to working as a Pipeline TD, to develop tools and features for Unreal Engine and it's use for Mando VP. </p>
+        <p> In particular, a focus on C++ support and expansion of the Python API to integrate core Maya tools into the new Unreal Engine workflow. </p>
+  width: 2
+  height: 4
+
 - id: 1
   title: Avengers 2
   img: Avengers2.jpg
@@ -12,16 +32,7 @@
       Mowgli made heavy use of Unreal Engine for both previsualisation and realtime  display of performance capture. I created digital sets, mapped digital avatars to performers, and produce rushes of the shoots. This was performed both in studio and on location.
   width: 2
   height: 4
-- id: 3
-  title: Game of Thrones (Season 8)
-  img: got8.jpg
-  desc: >
-      <p> GOT S8 used a number of tools I had built for TTF for virtual reality previsualisation of a scene, in particualar the Pathfinder tool, which allows you to both both scout locations and to plan camera shots. </p>
-      Epic has created a excellent write-up of our work which you can read here:
-      <a href="https://www.unrealengine.com/en-US/spotlights/virtual-production-on-the-battlegrounds-of-game-of-thrones" target="_blank">  Game of Thrones Previs using Unreal Engine 4 </a>  
-      <p>  </p>
-  width: 2
-  height: 4
+
 - id: 4
   title: Final Fantasy - Kingsglaive
   img: Kingsglaive.jpg
@@ -50,13 +61,7 @@
         For Apes 2, my work was based around the various pick-ups in performance capture for Andy Serkis.
   width: 2
   height: 4
-- id: 5
-  title: The Mandolorian (Season 2)
-  img: MandoSeason2.jpg
-  desc: >
-        Pipeline R&D, Core Tools integration into Unreal Engine
-  width: 2
-  height: 4
+
 - id: 5
   title: Jingle Jangle
   img: JingleJangle.jpg

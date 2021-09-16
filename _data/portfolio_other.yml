@@ -10,7 +10,8 @@
     </ul>
   width: 2
   height: 4
-- id: 1
+
+- id: 2
   title: Coldplay - Adventures of a Lifetime
   img: Coldplay.jpg
   desc: >
@@ -18,3 +19,31 @@
   width: 2
   height: 4
 
+- id: 3
+  title: Dream
+  img: DreamShot.png
+  desc: >
+    <p> <a href="https://dream.online/" _target="blank"> Dream Website </a> </p>
+    <p> Role: Lead Developer </p>
+    <p> Dream is an online production performed live at Portsmouth Guildhall in March 2021. 
+    The production combined the latest gaming and theatre technology to create a shared experience between audiences and actors, and featured an interactive symphonic soundtrack. </p>
+  width: 2
+  height: 4
+
+- id: 4
+  title: Dream AR
+  img: TBC.jpg
+  desc: >
+    <p> Role: Lead Developer </p>
+    <p> Dream AR was a Magic Leap powered project that explored a small part of Puck's journey through the forest. Making use of Argmented Reality to infuse the magic of the forest into the players space, the user uses simple interactions to guide Puck through the forest. </p>
+    <p> Short duration single player experience for use as a LBE </p>
+  width: 2
+  height: 4
+
+- id: 4
+  title: Live Broadcast Event. Ongoing (More info coming)
+  img: TBC.jpg
+  desc: >
+    <p> Integration of an external softwares data into Unreal Engine, and it's integration into a Disguise server workflow, with dynamic plate switching </p>
+  width: 2
+  height: 4
