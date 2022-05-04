@@ -4,19 +4,25 @@ title: Projects
 ---
 
 <!-- Window Container -->
-<div class="container-lg justify-content-md-center">
+<div class="container-xxl justify-content-md-center px-4">
+
+  <h2 class="text-center display-3 py-4"> Past Projects </h2>
 
 
-  <!-- title and master row -->
-  <h2 class="text-center py-3"> Film and TV </h2>
+
+  <h2 class="text-center display-4 py-4"> Film and TV </h2>
   <div class="row">
-  
+
     <!-- Loop through yml files -->
     {% for port in site.data.portfolio_film %}
-    <div class="card mb-2 mx-1 px-2 col bg-dark" style="min-width: 540px;">
+    <div class="card mx-1 my-1 px-0 col bg-dark"">
       <div class="row no-gutters">
-        <div class="col-auto"> <img src="assets/images/{{port.img}}" class="card-img py-4" style="max-width: 180px;" alt="{{port.title}}"> </div>
-        <div class="col-md-8">
+
+        <div class="col-auto"> 
+          <img src="assets/images/{{port.img}}" class="card-img" alt="{{port.title}}"> 
+        </div>
+
+        <div class="col">
           <div class="card-body">
             <h5 class="card-title"> {{port.title}} </h5>
             <p class="card-text"> {{port.desc}} </p>
@@ -24,41 +30,42 @@ title: Projects
         </div>
       </div>
     </div>
-
-  {% endfor %}
-
-</div> <!-- ~ Row Layouts for container of cards -->
-
-  
+    {% endfor %}
+  </div> <!-- close row 1 -->
 
 
-  <h2 class="text-center py-3"> Video Games </h2>
+  <h2 class="text-center display-4 py-4"> Video Games </h2>
   <div class="row">
-  {% for port in site.data.portfolio_games %}
+    {% for port in site.data.portfolio_games %}
+    <div class="card float-left mx-1 my-1 px-0 col bg-dark">
+      <div class="row">
+        <div class="col-auto"> 
+          <img src="assets/images/{{port.img}}" class="card-img" alt="{{port.title}}"> 
+        </div>
 
-  <div class="card mb-2 mx-1 px-2 col bg-dark" style="min-width: 540px;">
-    <div class="row no-gutters">
-      <div class="col-auto"> <img src="assets/images/{{port.img}}" class="card-img py-4" style="max-width: 180px;" alt="{{port.title}}"> </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title"> {{port.title}} </h5>
-          <p class="card-text"> {{port.desc}} </p>
+        <div class="col">
+          <div class="card-body">
+            <h5 class="card-title"> {{port.title}} </h5>
+            <p class="card-text"> {{port.desc}} </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   {% endfor %}
-  <!-- ~ Row Layouts for container of cards -->
-  </div>
+  </div> <!-- close row 2 -->
+    
 
-  <h2 class="text-center py-3"> Other </h2>
+  <h2 class="text-center display-4 py-4"> Other </h2>
   <div class="row">
+
   {% for port in site.data.portfolio_other %}
 
-  <div class="card mb-2 mx-1 px-2 col bg-dark" style="min-width: 540px;">
-    <div class="row no-gutters">
-      <div class="col-auto"> <img src="assets/images/{{port.img}}" class="card-img py-4" style="max-width: 180px;" alt="..."> </div>
-      <div class="col-md-8">
+  <div class="card float-left mx-1 my-1 px-0 col bg-dark">
+    <div class="row">
+      <div class="col-auto"> 
+        <img src="assets/images/{{port.img}}" class="card-img" alt="{{port.title}}"> 
+      </div>
+      <div class="col">
         <div class="card-body">
           <h5 class="card-title"> {{port.title}} </h5>
           <p class="card-text"> {{port.desc}} </p>
@@ -68,7 +75,7 @@ title: Projects
   </div>
   {% endfor %}
   <!-- ~ Row Layouts for container of cards -->
-  </div>
+</div>
 
 
 

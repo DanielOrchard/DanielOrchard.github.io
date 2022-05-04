@@ -66,6 +66,15 @@
   title: Jingle Jangle
   img: JingleJangle.jpg
   desc: >
-        On-Set NCam Realtime op
+        On Set Work, alongside the NCam Realtime team, to bring Motion Capture and N-Cam together 
+  width: 2
+  height: 4
+
+  
+- id: 6
+  title: Olympics 2022
+  img: Olympics22.png
+  desc: >
+    <p> Working with the Discovery / Eurosport Team UK, I created a bespoke plugin to ingest data from the specialised sports software into Unreal Engine and interact+render correctly and with flexibility within the Disguise server workflow, and also to implement procedural background characters to bring the digital sets to life.  </p>
   width: 2
   height: 4

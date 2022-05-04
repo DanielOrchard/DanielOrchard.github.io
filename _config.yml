@@ -2,3 +2,13 @@ environment: production
 sass:
   sass_dir: _sass
   style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+title: Daniel Orchard's Portfolio
+author: Daniel Orchard
+description: Portfolio for Daniel Orchard. Unreal Engine Developer
+twitter_username: DanielOrchard_0
+github_username: DanielOrchard
+
