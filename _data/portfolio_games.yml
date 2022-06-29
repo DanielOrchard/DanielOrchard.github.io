@@ -1,6 +1,7 @@
 - id: 1
   title: Star Citizen - Squadren 42
   img: Squadren42.jpg
+  comp: The Imaginarium Studios
   desc: >
     Star Citizen's Squadren 42 was a very large project for me, taking place over two years. My role was to drive and manage the realtime visualisation. Since this was (at the time) a CryEngine game, the realtime was all performed in CryEngine, in the actual game client. 
     This allowed our realtime to closely reflect the end-result.
@@ -9,6 +10,7 @@
 - id: 2
   title: Planet of the Apes - Last Frontier
   img: ApesFrontier.jpg
+  comp: The Imaginarium Studios
   desc: >
       On the last frontier I created the inital pitchvis in Unreal Engine, which was a complete scene with lighting, motion capture, and characters.
       Later in development I also helped with marketing material, in particular R&D into new mediums of delivery, such as 360 and VR.
@@ -17,6 +19,7 @@
 - id: 3
   title: Battlefield 1 
   img: battlefield1.jpg
+  comp: The Imaginarium Studios
   desc: >
     Performance Capture, data cleanup and pipeline development
   width: 2
@@ -24,6 +27,7 @@
 - id: 4
   title: Ryse - Son of Rome
   img: Ryse.jpg
+  comp: The Imaginarium Studios
   desc: >
     <p> As my first commercial project, I worked on stage to capture data, perfrom the post cleanup, and also developed new scripts to aid in future data-prep and cleanup. </p>
     <p> As my first project I was also just getting up to speed with all the techniques and pipelines <p>
@@ -31,8 +35,9 @@
   height: 4
 - id: 5
   title: Mad Factory VR
-  img: MadFactory.jpg
+  img: MadFactory.png
+  comp: The Third Floor Inc.
   desc: >
-    <p> Mad Factory VR is a fantastic VR game and my first shipped VR title. I assisted the immsersive team in the game logic and implementation. 
+    <p> Mad Factory VR is a fun VR game built for an arcade type gameplay. I acted as a Unreal Engine consultant for the project and assisted the immsersive team with the core game logic and VR best-practices. 
   width: 2
   height: 4

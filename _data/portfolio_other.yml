@@ -1,6 +1,7 @@
 - id: 1
   title: The Tempest
   img: Tempest.jpg
+  comp: The Imaginarium Studios
   desc: >
     <p> The Tempest was a massive project for me where performance capture was merged with traditional stage show control to produce a realtime avatar, driven live on stage, and controlled through external tools over network languages, mainly DMX, OSC, and PSN </p>
     <p> I created the Unreal project and merged all the elements together, including all the state logic, visual changes, and materials and particle fx. </p>
@@ -14,6 +15,7 @@
 - id: 2
   title: Coldplay - Adventures of a Lifetime
   img: cp.jpg
+  comp: The Imaginarium Studios
   desc: >
     <p> Performance Capture </p>
   width: 2
@@ -22,6 +24,7 @@
 - id: 3
   title: Dream
   img: Dream.png
+  comp: The Royal Shakespeare Company
   desc: >
     <p> <a href="https://dream.online/" _target="blank"> Dream Website </a> </p>
     <p> Role: Lead Developer </p>
@@ -33,6 +36,7 @@
 - id: 4
   title: Dream AR
   img: DreamAR.png
+  comp: Manchester International Festival
   desc: >
     <p> Role: Lead Developer </p>
     <p> Dream AR was a Magic Leap powered project that explored a small part of Puck's journey through the forest. Making use of Argmented Reality to infuse the magic of the forest into the players space, the user uses simple interactions to guide Puck through the forest. </p>

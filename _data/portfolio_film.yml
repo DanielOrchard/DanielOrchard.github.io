@@ -1,8 +1,11 @@
 - id: 3
   title: Game of Thrones
   img: got8.jpg
+  comp: The Third Floor Inc.
   desc: >
-      <p> On Game of Thrones (Season 8), I designed and produced virtual production tools, mainly utilising VR, for previsualisation and shot-planning, used for the more complex scenes, the primary tool being <a href="https://pathfinder.thethirdfloorinc.com/" target="_blank"> Pathfinder </a>, which allows you to both both scout locations and to plan camera shots. </p>
+      <p> On Game of Thrones (Season 8), I designed and produced virtual production tools, mainly utilising VR, for previsualisation and shot-planning, 
+      used for the more complex scenes, the primary tool being <a href="https://pathfinder.thethirdfloorinc.com/" target="_blank"> Pathfinder </a>, 
+      which allows you to both both scout locations and to plan camera shots. </p>
       Epic Games has created a excellent write-up of our work which you can read here:
       <br>
       <a href="https://www.unrealengine.com/en-US/spotlights/virtual-production-on-the-battlegrounds-of-game-of-thrones" target="_blank">  Game of Thrones Previs using Unreal Engine</a>
@@ -12,6 +15,7 @@
 - id: 5
   title: The Mandolorian (Season 2)
   img: MandoSeason2.jpg
+  comp: The Third Floor Inc.
   desc: >
         <p> The Mandolorian TV series used substantial amounts of virtual production in the development. My role was to working as a Pipeline TD, to develop tools and features for Unreal Engine and it's use for Mando VP. </p>
         <p> In particular, a focus on C++ support and expansion of the Python API to integrate core Maya tools into the new Unreal Engine workflow. </p>
@@ -19,23 +23,27 @@
   height: 4
 
 - id: 1
-  title: Avengers 2
+  title: Avengers 2 - Age Of Ultron
   img: Avengers2.jpg
+  comp: The Imaginarium Studios
   desc: >
       On Avengers 2 I was the P-Cap operator for a capture stage in Shepperton Studios, where I captured principal cast and stunt-work.
   width: 2
   height: 4
 - id: 2
-  title: Mowgli
+  title: Mowgli - Legend of the Jungle
   img: Mowgli.jpg
+  comp: The Imaginarium Studios
   desc: >
-      Mowgli made heavy use of Unreal Engine for both previsualisation and realtime  display of performance capture. I created digital sets, mapped digital avatars to performers, and produce rushes of the shoots. This was performed both in studio and on location.
+      Mowgli made heavy use of Unreal Engine for both previsualisation and realtime  display of performance capture. 
+      I created digital sets, mapped digital avatars to performers, and produce rushes of the shoots. This was performed both in studio and on location.
   width: 2
   height: 4
 
 - id: 4
   title: Final Fantasy - Kingsglaive
   img: Kingsglaive.jpg
+  comp: The Imaginarium Studios
   desc: >
       On Kingsglaive I alternated between work as a performance capture operator, and as the realtime operator using motion builder.
   width: 2
@@ -43,6 +51,7 @@
 - id: 5
   title: Star Wars - Episode 7
   img: StarWars7.jpg
+  comp: The Imaginarium Studios
   desc: >
         For Star Wars I worked in studio and on location as motion capture technician, and I also worked on location as IBC capture operator
   width: 2
@@ -50,13 +59,16 @@
 - id: 5
   title: The Ritual
   img: Ritual.jpg
+  comp: The Imaginarium Studios
   desc: >
-      For the Ritual I used Unreal Engine to build previs scenes to help plan the capture of more difficult shots, these were then used with performance capture digital sets for character motion development for the digital avatar of the monster (All in Unreal).
+      For the Ritual I used Unreal Engine to build previs scenes to help plan the capture of more difficult shots, 
+      these were then used with performance capture digital sets for character motion development for the digital avatar of the monster (All in Unreal).
   width: 2
   height: 4
 - id: 5
   title: Dawn Of The Planet Of The Apes
   img: dawn-planet-apes.jpg
+  comp: The Imaginarium Studios
   desc: >
         For Apes 2, my work was based around the various pick-ups in performance capture for Andy Serkis.
   width: 2
@@ -65,16 +77,29 @@
 - id: 5
   title: Jingle Jangle
   img: JingleJangle.jpg
+  comp: The Third Floor Inc.
   desc: >
         On Set Work, alongside the NCam Realtime team, to bring Motion Capture and N-Cam together 
   width: 2
   height: 4
-
   
 - id: 6
-  title: Olympics 2022
+  title: Beijing Olympics 2022
   img: Olympics22.png
+  comp: Discovery / Eurosport Team UK
   desc: >
-    <p> Working with the Discovery / Eurosport Team UK, I created a bespoke plugin to ingest data from the specialised sports software into Unreal Engine and interact+render correctly and with flexibility within the Disguise server workflow, and also to implement procedural background characters to bring the digital sets to life.  </p>
+    <p> I created a system for placing background npcs into any project, inc mocap import and retargetting, seeded randomised characters, 
+    outfits and animations, with a focus to bring the digital sets to life. 
+    This system has since been reused in other projects and easily adapted to new use cases. </p>
+  width: 2
+  height: 4
+
+- id: 7
+  title: Beijing Olympics 2022
+  img: EurosportTennis.png
+  comp: Discovery / Eurosport Team UK
+  desc: >
+    <p> I created a bespoke plugin to ingest data from the specialised sports software (Hawkeye) into Unreal Engine and interact & render correctly 
+    and with flexibility within the Disguise server workflow. System built to work with absolute reliability, and adapt as needed for use in live broadcast.  </p>
   width: 2
   height: 4
