@@ -1,4 +1,5 @@
-environment: production
+environment: 
+livereload: TRUE
 sass:
   sass_dir: _sass
   style: compressed
