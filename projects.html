@@ -4,82 +4,15 @@ title: Projects
 ---
 
 <!-- Window Container -->
-<div class="container-xxl justify-content-md-center px-4">
-
+<div class="container-flex">
   <h2 class="text-center display-3 py-4"> Past Projects </h2>
 
+  {% assign all_projects = site.data.portfolio_film | concat: site.data.portfolio_games | concat: site.data.portfolio_other | compact %}
 
-
-  <h2 class="text-center display-4 py-4"> Film and TV </h2>
-  <div class="row">
-
-    <!-- Loop through yml files -->
-    {% for port in site.data.portfolio_film %}
-    <div class="card mx-1 my-1 px-0 col bg-dark"">
-      <div class="row no-gutters">
-
-        <div class="col-auto"> 
-          <img src="assets/images/{{port.img}}" class="card-img" alt="{{port.title}}"> 
-        </div>
-
-        <div class="col">
-          <div class="card-body">
-            <h5 class="card-title"> {{port.title}} </h5>
-            <p class="card-text"> {{port.desc}} </p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <ul class="grid_container">
+    {% for port in all_projects %}
+      {% include project-group.html portfolio_item=port %}
     {% endfor %}
-  </div> <!-- close row 1 -->
+  </ul>
 
-
-  <h2 class="text-center display-4 py-4"> Video Games </h2>
-  <div class="row">
-    {% for port in site.data.portfolio_games %}
-    <div class="card float-left mx-1 my-1 px-0 col bg-dark">
-      <div class="row">
-        <div class="col-auto"> 
-          <img src="assets/images/{{port.img}}" class="card-img" alt="{{port.title}}"> 
-        </div>
-
-        <div class="col">
-          <div class="card-body">
-            <h5 class="card-title"> {{port.title}} </h5>
-            <p class="card-text"> {{port.desc}} </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  </div> <!-- close row 2 -->
-    
-
-  <h2 class="text-center display-4 py-4"> Other </h2>
-  <div class="row">
-
-  {% for port in site.data.portfolio_other %}
-
-  <div class="card float-left mx-1 my-1 px-0 col bg-dark">
-    <div class="row">
-      <div class="col-auto"> 
-        <img src="assets/images/{{port.img}}" class="card-img" alt="{{port.title}}"> 
-      </div>
-      <div class="col">
-        <div class="card-body">
-          <h5 class="card-title"> {{port.title}} </h5>
-          <p class="card-text"> {{port.desc}} </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-  <!-- ~ Row Layouts for container of cards -->
-</div>
-
-
-
-
-
-<!-- ~ Window container -->
-</div>
+</div> <!-- ~ Window container -->

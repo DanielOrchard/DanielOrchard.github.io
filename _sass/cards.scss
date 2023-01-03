@@ -1,0 +1,131 @@
+/**
+ * Card css
+ */
+
+:root {
+    --base-spacing:1rem;
+    --base-border-radius:1.0rem;
+    --base-duration:0.25s;
+    --base-timing:cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    --secondary-background-color:#16171d;
+}
+
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-kerning: auto;
+    font-kerning: auto;
+}
+
+::selection {
+    background: var(--base-accent-color);
+    color: var(--base-background-color);
+    text-shadow: none;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    transition: color var(--base-duration)var(--base-timing);
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(24rem,1fr));
+    grid-gap: var(--base-spacing);
+    margin: 0;
+    padding: 100px;
+    list-style: none;
+}
+
+.grid-item {
+    display: block;
+}
+
+.grid_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 550px;
+    border-radius: var(--base-border-radius);
+    transition: all(--base-duration)var(--base-timing);
+    overflow: hidden;
+}
+
+.card_graphic {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1;
+    left: 33%;
+    //padding-bottom: 66.666%;
+}
+
+.card_graphic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+    transition: opacity var(--base-duration)var(--base-timing);
+    mix-blend-mode: darken;
+    opacity: 1;
+}
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--base-spacing);
+    background-color: var(--secondary-background-color);
+}
+
+.card_title {
+    font-size: 1.33em;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.card_title a{
+    display:block;
+    text-decoration: none;
+}
+
+.card_text {
+    font-size: 1.0em;
+    max-width: 60ch;
+    margin: 0 0 1rem;
+}
+
+
+
+
+
+// .card_title a:after {
+//     content: "";
+//     position: absolute;
+//     z-index: 2;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+// }
+
+.card_meta {
+    margin-top: auto;
+    color: var(--secondary-font-color);
+}
+.text-meta {
+    font-family: var(--secondary-font-family);
+    font-size: var(--small-font-size);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
