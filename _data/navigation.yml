@@ -1,10 +1,13 @@
 - name: Home
-  link: /
+  url: /
+  target: _self
 - name: About Me
-  link: /about.html
+  url: /about/
+  targeT: _self
 - name: Past Projects
-  link: /projects.html
+  url: /projects/
+  target: _self
 # - name: Timeline
-#   link: /timeline.html
+#   url: /timeline.html
 # - name: Past Employment
-#   link: /PastEmployment.html
+#   url: /PastEmployment.html

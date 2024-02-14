@@ -18,12 +18,6 @@
     font-kerning: auto;
 }
 
-::selection {
-    background: var(--base-accent-color);
-    color: var(--base-background-color);
-    text-shadow: none;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
 }

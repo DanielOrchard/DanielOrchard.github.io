@@ -1,0 +1,37 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<!-- Window Container -->
+<div class="container-flex">
+  <h2 class="text-center display-3 py-4"> Past Projects </h2>
+
+  {% assign all_projects = site.data.portfolio_film | concat: site.data.portfolio_games | concat: site.data.portfolio_other | compact %}
+
+  <ul class="grid_container">
+    {% for project in all_projects %}
+      
+      <li class="grid_item"> 
+        <article class="grid_card" style="background-color:black">
+      
+          <div class="card_graphic" aria-hidden="true"> 
+            <img src="/assets/images/{{project.img}}" class="card-img" alt="{{project.title}}"> 
+          </div>
+      
+          <div class="card_body"> 
+            <h2 class="card_title"> <a href="{{project.link}}" target="_blank" data-page-link> {{project.title}} </a> </h2>
+            <h3 class="card_text "> {{project.comp}} </h3>
+            <h3 class="card_text text-secondary"> {{project.role}} </h3>
+            <p class="card_text py-3"> {{project.desc}} </p>
+            <div class="card_meta text-meta"></div>
+          </div>
+      
+        </article>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+</div> <!-- ~ Window container -->
